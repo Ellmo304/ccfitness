@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+  margin: 0;
+  padding: 0;
+  color: black;
+  width: 100%;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+h1 {
+  font-weight:800;
+  font-size: 75px;
+  text-align: center;
+  text-shadow: 5px 5px 5px #111111;
+  color: #fff;
+  padding: 0;
+}
+h2 {
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 5px 5px 5px #111111;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 55px;
+}
+
+.center { margin: 0 auto; }
+.content{margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+
+#header {
+  width: 100%;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #2a148c , #7cf398); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #2a148c, #7cf398); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #2a148c, #7cf398); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #2a148c, #7cf398);  Standard syntax
+  color: white;
+  border-bottom: 4px solid white;
+  height: 80px;
+  position: fixed;
+}
+
+#logo a {
+  border-radius: 50%;
+  color: white;
+}
+
+#nav { width: 410px; float: right; margin-top: 20px; }
+#logo a {text-decoration: none; float: left; font-size: 30px; margin-top: 20px; font-weight: bold; }
+#nav ul{
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+}
+#nav li{
+  margin-top: 9px;
+  float: left;
+  padding-left: 18px;
+}
+#nav li a { color: white; opacity:1; font-size: 16px; text-decoration: none; }
+#nav li a.active { color: #2176ff; opacity:1; }
+#nav li a:hover { color: #2176ff; opacity:1; }
+
+a:visited {
+  text-decoration: none;
+  /*color: black;*/
+}
+
+.contentContainer {
+  margin-top: -90px;
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+#home, #aboutMe, #services, #contactMe{ width: 100%; }
+#home{
+  background: red 50% 0 no-repeat fixed;
+  height: 520px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
+}
+#aboutMe{
+  background-color: #fff;
+  min-height: 400px;
+  margin: 0 auto;
+  padding: 200px 0 260px 0;
+}
+#services{
+  background:red 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 800px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+}
+#contactMe{
+  background-color: #fff;
+  height: 60px;
+  padding: 200px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.5, 1.5, 1.5);
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}*/

@@ -183,3 +183,11 @@ button {
   max-width: 100vw;
   max-height: 600px;
 }
+
+.slideHeader {
+  font-size: 40px;
+}
+
+.slideSub {
+  font-size: 30px;
+}

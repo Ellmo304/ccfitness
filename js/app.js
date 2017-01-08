@@ -1,4 +1,5 @@
 $(function() {
+  // console.log("loaded");
   $('a[href*=#]').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     && location.hostname == this.hostname
@@ -8,8 +9,8 @@ $(function() {
       if ($target) {
         var targetOffset = $target.offset().top;
         $(this).click(function() {
-          $('#nav li a').removeClass('active');
-          $(this).addClass('active');
+          $('#myNav li a').removeClass('isActive');
+          $(this).addClass('isActive');
           $('html, body').animate({scrollTop: targetOffset}, 1000);
           return false;
         });

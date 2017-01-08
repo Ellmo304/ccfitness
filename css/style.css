@@ -44,46 +44,47 @@ h2 {
 #header {
   font-family: 'Baloo Chettan', cursive;
   width: 100%;
-  background: black; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #19647E, #28AFB0); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #19647E, #28AFB0); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #19647E, #28AFB0); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #19647E, #28AFB0);  Standard syntax
-  color: white;
-  /*border-bottom: 4px solid white;*/
+  text-shadow: 10px 10px 14px #999999;
+  background: rgba(97, 40, 157, 0.16); /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(left, #8effd3, #fff); /* For Safari 5.1 to 6.0 */*/
+  /*background: -o-linear-gradient(right, #8effd3, #fff); /* For Opera 11.1 to 12.0 */*/
+  /*background: -moz-linear-gradient(right, #8effd3, #fff); /* For Firefox 3.6 to 15 */*/
+  /*background: linear-gradient(to right, #8effd3, #fff);  Standard syntax*/
+  color: #4250f4;
+  /*border-bottom: 4px solid #1c65ff;*/
   height: 60px;
   position: fixed;
+  z-index: 100;
 }
 
 span {
-color: white;
+color: #f44283;
 }
 
 #logo a {
   border-radius: 50%;
-  color: #F7DF89;
+  color: #1c65ff;
 }
 
-#logo a:hover {
+/*#logo a:hover {
   color: #fff;
-}
+}*/
 
-#nav { width: 500px; float: right; margin-top: 6px; }
+#myNav { width: 550px; float: right; margin-top: 6px; }
 #logo a {text-decoration: none; float: left; font-size: 40px; font-weight: bold; }
-#nav ul{
+#myNav ul{
   list-style: none;
   display: block;
   margin: 0 auto;
   list-style: none;
 }
-#nav li{
+#myNav li{
   margin-top: 9px;
   float: left;
-  padding-left: 30px;
 }
-#nav li a { color: #F7DF89; opacity:1; font-size: 20px; text-decoration: none; }
-#nav li a.active { color: #FFF; opacity:1; }
-#nav li a:hover { color: #FFF; opacity:1; }
+#myNav li a { color: #1c65ff; opacity:1; font-size: 20px; text-decoration: none; padding: 15px 20px 12px 20px; }
+#myNav li a.isActive { color: #f44283; opacity:1; }
+#myNav li a:hover { color: #FFF; opacity:1; background-color: #1c65ff; }
 
 a:visited {
   text-decoration: none;
@@ -109,28 +110,29 @@ a:visited {
 #home, #aboutMe, #services, #contactMe{ width: 100%; }
 #home{
   background: #fff 50% 0 no-repeat fixed;
+  /*color: #19647E;*/
   height: 600px;
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;
 }
 #aboutMe{
-  background-color: #19647E;
+  background-color: #fff;
   height: 600px;
-  color: #fff;
+  color: #19647E;
   margin: 0 auto;
   padding: 200px 0 260px 0;
 }
 #services{
   background:#fff 50% 0 no-repeat fixed;
-  color: #fff;
+  color: #19647E;
   height: 600px;
   padding: 170px 0 0 0;
   background-size: cover;
 }
 #contactMe{
-  background-color: #19647E;
-  color: #fff;
+  background-color: #fff;
+  color: #19647E;
   height: 600px;
   padding: 200px 0;
 }
@@ -182,6 +184,8 @@ button {
   height: 600px;
   max-width: 100vw;
   max-height: 600px;
+  position: relative;
+  backface-visibility: visible;
 }
 
 .slideHeader {

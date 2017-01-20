@@ -4,12 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin');
 
 
-/*dark color : #1D2419*/
-/*dark blue : #19647E*/
-/*mint : #28AFB0*/
-/*ochre : #F7DF89*/
-/*flesh : #F7CFAD*/
-
 body{
   margin: 0;
   padding: 0;
@@ -17,29 +11,24 @@ body{
   width: 100%;
   background-color: white;
   font-size: 20px;
-  /*font-family: 'ABeeZee', sans-serif;*/
   font-family: 'Cabin', sans-serif;
 
 }
 
 h1 {
-  /*font-family: 'Baloo Chettan', cursive;*/
   font-family: 'Cabin', sans-serif;
   font-weight:800;
   font-size: 75px;
   text-align: center;
-  /*text-shadow: 5px 5px 5px #111111;*/
   color: #1D2419;
   padding: 0;
 }
-h2 {
-  /*font-family: 'Baloo Chettan', cursive;*/
-  font-family: 'Cabin', sans-serif;
 
+h2 {
+  font-family: 'Cabin', sans-serif;
   font-weight: 800;
   font-size: 60px;
   text-align: center;
-  /*text-shadow: 5px 5px 5px #111111;*/
   color: #1D2419;
   margin: 0;
   padding-bottom: 55px;
@@ -50,15 +39,9 @@ h2 {
 .clear { clear: both; }
 
 #header {
-  /*font-family: 'Baloo Chettan', cursive;*/
   font-family: 'Cabin', sans-serif;
   width: 100%;
-  /*text-shadow: 10px 10px 14px #999999;*/
-  background: #4b82f2; /* For browsers that do not support gradients */
-  /*background: -webkit-linear-gradient(left, #8effd3, #fff); /* For Safari 5.1 to 6.0 */*/
-  /*background: -o-linear-gradient(right, #8effd3, #fff); /* For Opera 11.1 to 12.0 */*/
-  /*background: -moz-linear-gradient(right, #8effd3, #fff); /* For Firefox 3.6 to 15 */*/
-  /*background: linear-gradient(to right, #8effd3, #fff);  Standard syntax*/
+  background: #4b82f2;
   color: #4250f4;
   border-bottom: 4px solid #bad1ff;
   height: 60px;
@@ -67,7 +50,7 @@ h2 {
 }
 
 span {
-color: #fff;
+  color: #fff;
 }
 
 #logo a {
@@ -78,9 +61,6 @@ color: #fff;
 #logo {
   margin-bottom: -2px;
 }
-/*#logo a:hover {
-  color: #fff;
-}*/
 
 #myNav { width: 550px; float: right; margin-top: 6px; }
 #logo a { text-decoration: none; float: left; font-size: 40px; font-weight: bold; }
@@ -89,7 +69,6 @@ color: #fff;
   display: block;
   margin: 0 auto;
   list-style: none;
-    /*margin-bottom: 10px;*/
 }
 #myNav li{
   margin-top: 9px;
@@ -101,7 +80,6 @@ color: #fff;
 
 a:visited {
   text-decoration: none;
-  /*color: black;*/
 }
 
 .slideContainer {
@@ -117,13 +95,11 @@ a:visited {
   margin-top: -100px;
   text-align: center;
   width: 960px;
-  /*padding-bottom: 120px;*/
 }
 
 #home, #aboutMe, #services, #contactMe{ width: 100%; }
 #home{
   background: #fff 50% 0 no-repeat fixed;
-  /*color: #19647E;*/
   height: 700px;
   margin: 0;
   padding: 200px 0 260px 0;
@@ -131,10 +107,9 @@ a:visited {
 }
 #aboutMe{
   background-color: #fff;
-  height: 600px;
+  height: 1500px;
   color: #19647E;
   margin: 0 auto;
-  text-align: justify;
   padding: 200px 0 260px 0;
 }
 #services{
@@ -161,36 +136,63 @@ button {
   margin-bottom: 20px;
 }
 
+.paragraphHolder {
+  text-align: justify;
+  display: inline-block;
+}
 
+.imageHolder {
+  display: inline-block;
+}
 
+.imageHolder > img {
+  width: 400px;
+  float: right;
+  padding-left: 100px;
+}
+
+.infoBubble {
+  padding: 15px 5px 0px 5px;
+  margin-top: 20px;
+  background-color:  #bad1ff;
+  border: 3px solid #4b82f2;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+}
+.infoBubble > ul li {
+  list-style-type: none;
+  text-align: center;
+  margin-left: -35px;
+}
 
 /*
 @keyframes slideInLeft {
-  from {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+from {
+-webkit-transform: translate3d(-100%, 0, 0);
+transform: translate3d(-100%, 0, 0);
+visibility: visible;
+}
+to {
+-webkit-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+}
 }
 
 
 @keyframes pulse {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-  50% {
-    -webkit-transform: scale3d(1.5, 1.5, 1.5);
-    transform: scale3d(1.5, 1.5, 1.5);
-  }
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
+from {
+-webkit-transform: scale3d(1, 1, 1);
+transform: scale3d(1, 1, 1);
+}
+50% {
+-webkit-transform: scale3d(1.5, 1.5, 1.5);
+transform: scale3d(1.5, 1.5, 1.5);
+}
+to {
+-webkit-transform: scale3d(1, 1, 1);
+transform: scale3d(1, 1, 1);
+}
 }*/
 
 .carousel-item, img.d-block.img-fluid {

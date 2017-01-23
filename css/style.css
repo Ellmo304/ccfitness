@@ -12,7 +12,6 @@ body{
   background-color: white;
   font-size: 20px;
   font-family: 'Cabin', sans-serif;
-
 }
 
 h1 {
@@ -41,40 +40,47 @@ h2 {
 #header {
   font-family: 'Cabin', sans-serif;
   width: 100%;
-  background: #4b82f2;
+  background: rgb(110, 50, 231);
   color: #4250f4;
-  border-bottom: 4px solid #bad1ff;
   height: 60px;
   position: fixed;
   z-index: 100;
+
 }
 
 span {
   color: #fff;
 }
 
-#logo a {
+li#logo.col-3 >a> span {
   border-radius: 50%;
   color: #bad1ff;
+  /*font-size: 40px;*/
 }
 
-#logo {
-  margin-bottom: -2px;
+#headHead {
+  height: 30px;
 }
 
-#myNav { width: 550px; float: right; margin-top: 6px; }
-#logo a { text-decoration: none; float: left; font-size: 40px; font-weight: bold; }
+/*h6 {
+  float: right;
+  color: white;
+}*/
+
+/*#logo a { text-decoration: none; float: left; font-size: 40px; font-weight: bold; }*/
 #myNav ul{
   list-style: none;
-  display: block;
+  display: inline;
   margin: 0 auto;
   list-style: none;
 }
 #myNav li{
-  margin-top: 9px;
-  float: left;
+  /*margin-top: -22px;*/
+  display: inline-block;
+  text-align: center;
+  /*float: left;*/
 }
-#myNav li a { color: #bad1ff; opacity:1; font-size: 20px; text-decoration: none; padding: 15px 20px 12px 20px; }
+#myNav li a { display: inline-block; color: #fff; opacity:1; font-size: 20px; text-decoration: none; padding: 15px 20px 12px 20px; }
 #myNav li a.isActive { color: #fff; opacity:1; }
 #myNav li a:hover { color: #FFF; opacity:1; background-color: #1c65ff; }
 
@@ -88,6 +94,8 @@ a:visited {
   text-align: center;
   width: 100vw;
   padding-bottom: 120px;
+  /*border-bottom: 10px solid #bad1ff;*/
+  /*border-top: 4px solid #fff;*/
 }
 
 .contentContainer {
@@ -99,14 +107,14 @@ a:visited {
 
 #home, #aboutMe, #services, #contactMe{ width: 100%; }
 #home{
-  background: #fff 50% 0 no-repeat fixed;
+  background: #e0d2f9 50% 0 no-repeat fixed;
   height: 700px;
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;
 }
 #aboutMe{
-  background-color: #fff;
+  background-color: #efe8fc;
   height: 1500px;
   color: #19647E;
   margin: 0 auto;
@@ -199,12 +207,28 @@ transform: scale3d(1, 1, 1);
   width: 100%;
   /*max-width: 100vw;*/
   height: 100%;
+
 }
 
 .slideHeader {
-  font-size: 40px;
+  font-size: 50px;
+  margin-bottom: -10px;
 }
 
 .slideSub {
-  font-size: 30px;
+  font-size: 40px;
+  margin-bottom: -10px;
+
+}
+
+
+
+img.d-block.img-fluid {
+  opacity: 0.95;
+}
+
+img.svg {
+  width: 50px;
+  display: inline-block;
+  margin: 0 auto;
 }

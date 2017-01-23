@@ -8,14 +8,17 @@
 </head>
 <body>
   <header id="header" class="navbar-fixed-top">
-    <div class="content" style="margin: 0 auto;">
-      <div id="logo"><a href=""> <span>CC</span>fitness </a></div>
+    <div class="container" >
+      <!-- <div id="headHead"> -->
+<!-- <h6>ccfitness@gmail.com</h6> -->
+      <!-- </div> -->
       <nav id="myNav">
-        <ul>
-          <li><a href="#home" class="isActive" title="Next Section" >Home</a></li>
-          <li><a href="#aboutMe" title="Next Section">About Me</a></li>
-          <li><a href="#services" title="Next Section">Services</a></li>
-          <li><a href="#contactMe" title="Next Section">Contact Me</a></li>
+        <ul class="row">
+          <li class="col-2"><a href="#home" class="isActive" title="Next Section" >Home</a></li>
+          <li class="col-2"><a href="#aboutMe" title="Next Section">About Me</a></li>
+          <li class="col-3" id="logo"><a href="#"> <span>CCfitness</span> </a></li>
+          <li class="col-2"><a href="#services" title="Next Section">Services</a></li>
+          <li class="col-2"><a href="#contactMe" title="Next Section">Contact Me</a></li>
         </ul>
       </nav>
     </div>
@@ -137,6 +140,8 @@
 <div id="contactMe">
   <div class="contentContainer">
     <h2>Contact Me</h2>
+
+
     <form action="mailto:elliot@elliot-brock.com" method="post">
       <input type="text" name="" placeholder="Your Name" value="">
       <input type="number" name="" placeholder="Age" value="" min="18">
@@ -148,6 +153,14 @@
       </select>
       <button name="button">Submit</button>
     </form>
+    <div class="container row">
+      <img class="svg" src="/images/facebook.svg" alt="facebook">
+      <img class="svg" src="/images/youtube.svg" alt="youtube">
+      <img class="svg" src="/images/linkedin.svg" alt="linkedin">
+      <img class="svg" src="/images/twitter.svg" alt="twitter">
+      <img class="svg" src="/images/instagram-icon.svg" alt="instagram">
+      <img class="svg" src="/images/pinterest.svg" alt="pinterest">
+    </div>
     <footer>Copyright &#169; CCfitness 2017</footer>
   </div>
 </div>

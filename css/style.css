@@ -73,8 +73,8 @@ h3 {
   text-align: center;
 }
 #myNav li a { display: inline-block; color: #fff; opacity:1; font-size: 20px; text-decoration: none; padding: 7px 20px 12px 10px; }
-#myNav li a.isActive { color: #fff; opacity:1; }
-#myNav li a:hover { color: #FFF; opacity:1; background-color: #1c65ff; }
+#myNav li a.isActive { color: #67f9fb; opacity:1; }
+#myNav li a:hover { color: #67f9fb; opacity:1;  }
 
 a:visited {
   text-decoration: none;

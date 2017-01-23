@@ -105,14 +105,14 @@ a#logo {
 #home, #aboutMe, #services, #contactMe{ width: 100%; }
 #home{
   background: #e0d2f9 50% 0 no-repeat fixed;
-  height: 700px;
+  height: 780px;
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;
 }
 #aboutMe{
   background-color: #efe8fc;
-  height: 1500px;
+  height: 1300px;
   color: #19647E;
   margin: 0 auto;
   padding: 200px 0 260px 0;

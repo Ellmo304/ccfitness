@@ -7,7 +7,7 @@
 body{
   margin: 0;
   padding: 0;
-  color: #1D2419;
+  color:  #15576a;
   width: 100%;
   background-color: white;
   font-size: 20px;
@@ -19,16 +19,16 @@ h1 {
   font-weight:800;
   font-size: 75px;
   text-align: center;
-  color: #1D2419;
+  color: #114555;
   padding: 0;
 }
 
 h2 {
   font-family: 'Cabin', sans-serif;
   font-weight: 800;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
-  color: #1D2419;
+  color: #114555;
   margin: 0;
   padding-bottom: 55px;
 }
@@ -42,7 +42,7 @@ h2 {
   width: 100%;
   background: rgb(110, 50, 231);
   color: #4250f4;
-  height: 60px;
+  height: 120px;
   position: fixed;
   z-index: 100;
 
@@ -52,22 +52,16 @@ span {
   color: #fff;
 }
 
-li#logo.col-3 >a> span {
-  border-radius: 50%;
-  color: #bad1ff;
-  /*font-size: 40px;*/
+
+
+
+#home h3 {
+color: white;
+}
+h3 {
+  color: #114555;
 }
 
-#headHead {
-  height: 30px;
-}
-
-/*h6 {
-  float: right;
-  color: white;
-}*/
-
-/*#logo a { text-decoration: none; float: left; font-size: 40px; font-weight: bold; }*/
 #myNav ul{
   list-style: none;
   display: inline;
@@ -75,12 +69,10 @@ li#logo.col-3 >a> span {
   list-style: none;
 }
 #myNav li{
-  /*margin-top: -22px;*/
   display: inline-block;
   text-align: center;
-  /*float: left;*/
 }
-#myNav li a { display: inline-block; color: #fff; opacity:1; font-size: 20px; text-decoration: none; padding: 15px 20px 12px 20px; }
+#myNav li a { display: inline-block; color: #fff; opacity:1; font-size: 20px; text-decoration: none; padding: 7px 20px 12px 10px; }
 #myNav li a.isActive { color: #fff; opacity:1; }
 #myNav li a:hover { color: #FFF; opacity:1; background-color: #1c65ff; }
 
@@ -88,14 +80,19 @@ a:visited {
   text-decoration: none;
 }
 
+a#logo {
+  font-size: 40px;
+  color: white;
+  padding-top: 10px;
+  /*padding-bottom: -40px;*/
+}
+
 .slideContainer {
   margin: 0 auto;
-  margin-top: -140px;
+  margin-top: -80px;
   text-align: center;
   width: 100vw;
   padding-bottom: 120px;
-  /*border-bottom: 10px solid #bad1ff;*/
-  /*border-top: 4px solid #fff;*/
 }
 
 .contentContainer {
@@ -174,19 +171,6 @@ button {
   margin-left: -35px;
 }
 
-/*
-@keyframes slideInLeft {
-from {
--webkit-transform: translate3d(-100%, 0, 0);
-transform: translate3d(-100%, 0, 0);
-visibility: visible;
-}
-to {
--webkit-transform: translate3d(0, 0, 0);
-transform: translate3d(0, 0, 0);
-}
-}
-
 
 @keyframes pulse {
 from {
@@ -201,7 +185,7 @@ to {
 -webkit-transform: scale3d(1, 1, 1);
 transform: scale3d(1, 1, 1);
 }
-}*/
+}
 
 .carousel-item, img.d-block.img-fluid {
   width: 100%;
@@ -212,16 +196,13 @@ transform: scale3d(1, 1, 1);
 
 .slideHeader {
   font-size: 50px;
-  margin-bottom: -10px;
+  margin-top: 480px;
 }
 
 .slideSub {
   font-size: 40px;
-  margin-bottom: -10px;
-
+  margin-top: 10px;
 }
-
-
 
 img.d-block.img-fluid {
   opacity: 0.95;
@@ -231,4 +212,16 @@ img.svg {
   width: 50px;
   display: inline-block;
   margin: 0 auto;
+}
+
+img.svg:hover {
+  animation: pulse 1s ease-in-out;
+}
+
+div.carousel-caption.d-none.d-md-block{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  margin-bottom: -20px;
+  margin-left: -300px;
+  margin-right: -300px;
 }

@@ -40,20 +40,21 @@ h2 {
 #header {
   font-family: 'Cabin', sans-serif;
   width: 100%;
-  background: rgb(110, 50, 231);
-  color: #4250f4;
+  background: #ae8df2;
+  color: white;
   height: 120px;
   position: fixed;
   z-index: 100;
+}
 
+#header1 {
+  background: #8e5eed;
+  width: 100%;
 }
 
 span {
-  color: #fff;
+  color:  #5417cf;
 }
-
-
-
 
 #home h3 {
 color: white;
@@ -72,9 +73,9 @@ h3 {
   display: inline-block;
   text-align: center;
 }
-#myNav li a { display: inline-block; color: #fff; opacity:1; font-size: 20px; text-decoration: none; padding: 7px 20px 12px 10px; }
-#myNav li a.isActive { color: #67f9fb; opacity:1; }
-#myNav li a:hover { color: #67f9fb; opacity:1;  }
+#myNav li a { display: inline-block; color: #fff; opacity:1; font-size: 20px; text-decoration: none; padding: 9px 20px 12px 9px; }
+#myNav li a.isActive { color:  #5417cf; opacity:1; }
+#myNav li a:hover { color:  #5417cf; opacity:1;  }
 
 a:visited {
   text-decoration: none;
@@ -82,9 +83,11 @@ a:visited {
 
 a#logo {
   font-size: 40px;
+  /*text-shadow: 1px 1px 1px #333333;*/
+  font-weight: 900;
   color: white;
-  padding-top: 10px;
-  /*padding-bottom: -40px;*/
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .slideContainer {

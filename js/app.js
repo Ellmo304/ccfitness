@@ -12,10 +12,18 @@ $(function() {
           $('#myNav li a').removeClass('isActive');
           $(this).addClass('isActive');
           $('html, body').animate({scrollTop: targetOffset}, 1000);
+          // if ($('#homeLink').hasClass('isActive')) {
+          //   $('#header1').css('visibility', 'visible');
+          //   $('#myNav').css('margin-top', '0px');
+          //   $('#header').css('height', '120px');
+          // } else {
+          //   $('#header1').css('visibility', 'hidden');
+          //   $('#myNav').css('margin-top', '-65px');
+          //   $('#header').css('height', '60px');
+          // }
           return false;
         });
       }
     }
   });
-
 });

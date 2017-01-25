@@ -7,7 +7,7 @@
 body{
   margin: 0;
   padding: 0;
-  color:  #15576a;
+  color:  #5417cf;
   width: 100%;
   background-color: white;
   font-size: 20px;
@@ -28,7 +28,7 @@ h2 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
-  color: #114555;
+  color: #5417cf;
   margin: 0;
   padding-bottom: 55px;
 }
@@ -50,6 +50,7 @@ h2 {
 #header1 {
   background: #8e5eed;
   width: 100%;
+  visibility: visible;
 }
 
 span {
@@ -60,7 +61,7 @@ span {
 color: white;
 }
 h3 {
-  color: #114555;
+  color: #5417cf;
 }
 
 #myNav ul{
@@ -146,6 +147,7 @@ button {
 
 .paragraphHolder {
   text-align: justify;
+  color: #5417cf;
   display: inline-block;
 }
 
@@ -160,17 +162,19 @@ button {
 }
 
 .infoBubble {
-  padding: 15px 5px 0px 5px;
+  padding: 20px 5px 5px 5px;
   margin-top: 20px;
-  background-color:  #bad1ff;
-  border: 3px solid #4b82f2;
+  background-color:  #ae8df2;
+  border: 3px solid #8e5eed;
   border-radius: 10px;
   display: block;
   text-align: center;
+  color: #5417cf;
 }
 .infoBubble > ul li {
   list-style-type: none;
   text-align: center;
+  color: white;
   margin-left: -35px;
 }
 

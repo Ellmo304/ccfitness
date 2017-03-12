@@ -96,7 +96,7 @@ a#logo {
   margin-top: -80px;
   text-align: center;
   width: 100vw;
-  padding-bottom: 120px;
+  /*padding-bottom: 120px;*/
 }
 
 .contentContainer {
@@ -109,9 +109,9 @@ a#logo {
 #home, #aboutMe, #services, #contactMe{ width: 100%; }
 #home{
   background: #e0d2f9 50% 0 no-repeat fixed;
-  height: 780px;
+  /*height: 10px;*/
   margin: 0;
-  padding: 200px 0 260px 0;
+  padding: 200px 0 0px 0;
   background-size: cover;
 }
 #aboutMe{
@@ -194,6 +194,10 @@ transform: scale3d(1, 1, 1);
 }
 }
 
+a.carousel-control-prev, a.carousel-control-next {
+  display: none;
+}
+
 .carousel-item, img.d-block.img-fluid {
   width: 100%;
   /*max-width: 100vw;*/
@@ -203,7 +207,7 @@ transform: scale3d(1, 1, 1);
 
 .slideHeader {
   font-size: 50px;
-  margin-top: 480px;
+  margin-top: 32%;
 }
 
 .slideSub {
@@ -216,13 +220,25 @@ img.d-block.img-fluid {
 }
 
 img.svg {
-  width: 50px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
-  margin: 0 auto;
 }
 
 img.svg:hover {
   animation: pulse 1s ease-in-out;
+}
+
+.contactDiv {
+  margin: 110px auto;
+  width: 315px;
+  padding: none;
+  margin: none;
+  display: inline-block;
+}
+
+.contactDiv > h3 {
+  margin: 30px auto;
 }
 
 div.carousel-caption.d-none.d-md-block{
@@ -231,4 +247,13 @@ div.carousel-caption.d-none.d-md-block{
   margin-bottom: -20px;
   margin-left: -300px;
   margin-right: -300px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+.contentContainer > h2 {
+  margin-top: -30px;
+  margin-bottom: 0px;
 }

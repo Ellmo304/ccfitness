@@ -124,7 +124,7 @@ a#logo {
 #services{
   background:#fff 50% 0 no-repeat fixed;
   color: #19647E;
-  height: 600px;
+  height: 750px;
   padding: 170px 0 0 0;
   background-size: cover;
 }
@@ -256,4 +256,10 @@ footer {
 .contentContainer > h2 {
   margin-top: -30px;
   margin-bottom: 0px;
+}
+
+.services1 li {
+  font-size: 22px;
+  margin-bottom: 40px;
+  list-style-type: none;
 }

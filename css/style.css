@@ -144,7 +144,7 @@ a#logo {
 }
 #aboutMe{
   background-color: white;
-  height: 820px;
+  height: 830px;
   color: #fff;
   margin: 0 auto;
   padding: 240px 0 260px 0;
@@ -154,7 +154,7 @@ a#logo {
 #services{
   background:#fff 50% 0 no-repeat fixed;
   color: #605E60;
-  height: 845px;
+  height: 865px;
   padding: 170px 0 0 0;
   background-size: cover;
   border-bottom: 4px double #f60000;
@@ -163,7 +163,7 @@ a#logo {
 #contactMe{
   background-color: #fff;
   color: black;
-  height: 600px;
+  height: 620px;
   padding: 200px 0;
 }
 
@@ -242,7 +242,7 @@ a.carousel-control-prev, a.carousel-control-next {
 
 .slideHeader {
   font-size: 50px;
-  margin-top: 32%;
+  margin-top: 550px;
 }
 
 .slideSub {
@@ -287,6 +287,7 @@ div.carousel-caption.d-none.d-md-block{
 
 footer {
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .contentContainer > h2 {

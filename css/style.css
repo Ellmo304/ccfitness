@@ -1,4 +1,6 @@
 
+@font-face { font-family: Bree; src: url('/bree.otf') format("truetype"); }
+
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan'); /*flashy font*/
 @import url('https://fonts.googleapis.com/css?family=ABeeZee'); /*normal font*/
 @import url('https://fonts.googleapis.com/css?family=Cabin');
@@ -24,11 +26,11 @@ h1 {
 }
 
 h2 {
-  font-family: 'Cabin', sans-serif;
+  font-family: Bree, sans-serif;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 48px;
   text-align: center;
-  color: #5417cf;
+  color: black;
   margin: 0;
   padding-bottom: 55px;
 }
@@ -38,24 +40,28 @@ h2 {
 .clear { clear: both; }
 
 #header {
-  font-family: 'Cabin', sans-serif;
+  font-family: Bree, sans-serif;
   width: 100%;
-  background: #ae8df2;
+  background: white;
   color: white;
   height: 120px;
   position: fixed;
   z-index: 100;
+  border-bottom: 2px solid #f60000;
 }
 
 #header1 {
-  background: #8e5eed;
+  background: white;
   width: 100%;
+  text-align: center;
   visibility: visible;
+  border-bottom: 2px solid #f60000;
+
 }
 
-span {
+/*span {
   color:  #5417cf;
-}
+}*/
 
 #home h3 {
 color: white;
@@ -74,21 +80,43 @@ h3 {
   display: inline-block;
   text-align: center;
 }
-#myNav li a { display: inline-block; color: #fff; opacity:1; font-size: 20px; text-decoration: none; padding: 9px 20px 12px 9px; }
-#myNav li a.isActive { color:  #5417cf; opacity:1; }
-#myNav li a:hover { color:  #5417cf; opacity:1;  }
+#myNav li a { display: inline-block; color: #000; opacity:1; font-size: 24px; text-decoration: none; padding: 3px 20px 12px 9px; }
+#myNav li a.isActive { color:  #f60000; opacity:1; }
+#myNav li a:hover { color:  #f60000; opacity:1;  }
 
 a:visited {
   text-decoration: none;
 }
 
 a#logo {
-  font-size: 40px;
+  font-size: 48px;
+  padding-right: 7%;
   /*text-shadow: 1px 1px 1px #333333;*/
   font-weight: 900;
-  color: white;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  font-family: Bree, sans-serif;
+}
+
+#logo #gloves {
+  padding-left: 2%;
+  width: 50px;
+  margin-top: -5px;
+}
+
+#reps {
+  width: 100px;
+  float: left;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+#reps:hover {
+  animation: pulse 2s ease-in-out;
 }
 
 .slideContainer {
@@ -115,30 +143,37 @@ a#logo {
   background-size: cover;
 }
 #aboutMe{
-  background-color: #efe8fc;
-  height: 1300px;
-  color: #19647E;
+  background-color: white;
+  height: 820px;
+  color: #fff;
   margin: 0 auto;
-  padding: 200px 0 260px 0;
+  padding: 240px 0 260px 0;
+  border-bottom: 4px double #f60000;
+
 }
 #services{
   background:#fff 50% 0 no-repeat fixed;
-  color: #19647E;
-  height: 750px;
+  color: #605E60;
+  height: 845px;
   padding: 170px 0 0 0;
   background-size: cover;
+  border-bottom: 4px double #f60000;
+
 }
 #contactMe{
   background-color: #fff;
-  color: #19647E;
+  color: black;
   height: 600px;
   padding: 200px 0;
 }
 
-input, select {
+input, textarea, select {
   margin: 0 auto;
   margin-bottom: 20px;
   display: block;
+  border-radius: 10px;
+  border: 1px solid #605E60;
+  padding: 2px;
 }
 
 button {
@@ -147,7 +182,7 @@ button {
 
 .paragraphHolder {
   text-align: justify;
-  color: #5417cf;
+  color: #605E60;
   display: inline-block;
 }
 
@@ -226,7 +261,7 @@ img.svg {
 }
 
 img.svg:hover {
-  animation: pulse 1s ease-in-out;
+  animation: pulse 2s ease-in-out;
 }
 
 .contactDiv {
@@ -239,6 +274,7 @@ img.svg:hover {
 
 .contactDiv > h3 {
   margin: 30px auto;
+  color: #f60000;
 }
 
 div.carousel-caption.d-none.d-md-block{
@@ -260,6 +296,23 @@ footer {
 
 .services1 li {
   font-size: 22px;
-  margin-bottom: 40px;
+  margin-top: 20px;
   list-style-type: none;
+}
+
+#logo {
+  width:40%;
+}
+
+#submitButton {
+  border-radius: 10px;
+  padding-top: 4px;
+  background: #1ec75d;
+  color: white;
+  cursor: pointer;
+  border: 1px solid rgb(50, 255, 120);
+}
+#submitButton:hover {
+  background: rgb(24, 217, 96);
+
 }

@@ -27,3 +27,8 @@ $(function() {
     }
   });
 });
+
+// $('#submitButton').on('click', function() {
+//   $('#contactForm').submit();
+//   $('#contactForm').reset();
+// });

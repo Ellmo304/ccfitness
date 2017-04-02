@@ -11,7 +11,7 @@
 <body>
   <header id="header" class="navbar-fixed-top">
     <div id="header1" class="container">
-      <a id="logo" class="col-12" style="margin: 0 auto; display: inline-block; text-align: center;">CC<span>fitness</span></a>
+      <img id="reps" src="./images/reps.png" alt="reps logo"/><a id="logo" >CCfitness<img id="gloves" src="./images/gloves2.jpg" alt="gloves logo"/></a>
     </div>
     <div class="container" >
       <nav id="myNav">
@@ -43,7 +43,7 @@
           <div class="carousel-item active">
             <img class="d-block img-fluid" src="/images/cat3.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="slideHeader">Get trimmer, leaner and fitter</h3>
+              <h3 class="slideHeader">Get Leaner</h3>
               <!-- <p class="slideSub">Personal Trainer || Fitness Instructor</p> -->
             </div>
           </div>
@@ -51,7 +51,7 @@
           <div class="carousel-item">
             <img class="d-block img-fluid" src="/images/cat1.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="slideHeader">Get trimmer, leaner and fitter</h3>
+              <h3 class="slideHeader">Get Fitter</h3>
               <!-- <p class="slideSub">Personal Trainer || Fitness Instructor</p> -->
             </div>
           </div>
@@ -59,7 +59,7 @@
           <div class="carousel-item">
             <img class="d-block img-fluid" src="/images/cat2.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="slideHeader">Get trimmer, leaner and fitter</h3>
+              <h3 class="slideHeader">Get Trimmer</h3>
               <!-- <p class="slideSub">Personal Trainer || Fitness Instructor</p> -->
             </div>
           </div>
@@ -89,6 +89,7 @@
             <li>Find it difficult to eat healthily when socialising?  </li>
             <li>Would you rather look forward to exercise rather than dreading it?  </li>
             <li>Do you want a weight loss plan that is effective yet fits around your busy schedule? </li>
+            <li>Are you frequently attending exercise classes but find you aren't seeing results quick enough?</li>
           </ul>
         </div>
         <div class="col-2">
@@ -98,19 +99,14 @@
           <p>
             Be shown effective exercises and healthy eating tips with a 30 minute taster session! Please leave your details below to book:
           </p>
-          <form action="mailto:info@ccfitness.net" method="post">
-            <input type="text" name="" placeholder="Your Name" value="">
-            <input type="text" name="" placeholder="Phone Number" value="">
-            <input type="text" name="" placeholder="Email Address" value="">
-            <input type="text" name="" placeholder="Location" value="">
-            <input type="number" name="" placeholder="Age" value="" min="18">
-            <!-- <label>What is your goal?</label><select> -->
-            <!-- <option value="Lose Weight">Lose Weight</option>
-            <option value="Gain Muscle">Gain Muscle</option>
-            <option value="fat">fat</option>
-            <option value="audi">Audi</option>
-          </select> -->
-          <button name="button">Submit</button>
+          <form id="contactForm" action="mailto:info@ccfitness.net" method="post">
+            <input type="text" name="name" placeholder="Your Name" value="">
+            <input type="text" name="phone" placeholder="Phone Number" value="">
+            <input type="text" name="email" placeholder="Email Address" value="">
+            <input type="text" name="location" placeholder="Location" value="">
+            <input type="number" name="age" placeholder="Age" value="" min="18">
+            <textarea type="text" name="message" placeholder="Include a message (optional)" value=""></textarea>
+          <button id="submitButton">Submit</button>
         </form>
         <p style="font-size: 15px;">
           I cover Mill Hill, Edgware, Colindale, Stanmore, Queensbury, Barnet, Hendon and Acton. I can visit you at home, work or in a local park with portable fitness equipment.
@@ -124,7 +120,7 @@
 
 
 <div id="aboutMe">
-  <h2 id="about" style="margin-top: -150px;"><em>About Catherine</em></h2>
+  <h2 id="about" style="margin-top: -150px;">About Catherine</h2>
   <div class="contentContainer" style="margin-top: 0px;">
     <div class="row">
       <div class="paragraphHolder col-6">
@@ -141,7 +137,7 @@
         </div>
       </div>
 
-      <div class="infoBubble">
+      <!-- <div class="infoBubble">
         <h3>Qualifications</h3>
         <ul>
           <li>Level 3 Advanced Diploma in Personal Training</li>
@@ -151,8 +147,8 @@
           <li>Level 2 Emergency First Aid</li>
           <li>REPs (Register of Exercise Professionals) Registered</li>
         </ul>
-      </div>
-      <div class="infoBubble">
+      </div> -->
+      <!-- <div class="infoBubble">
         <h3>  Specialist Areas</h3>
         <ul>
           <li>Fat Loss</li>
@@ -161,7 +157,7 @@
           <li>Nutritional Advice</li>
           <li>Personalised Exercise Programmes</li>
         </ul>
-      </div>
+      </div> -->
 
     </div>
   </div>

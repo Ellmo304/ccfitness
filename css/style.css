@@ -139,6 +139,7 @@ a#logo {
   background: #e0d2f9 50% 0 no-repeat fixed;
   /*height: 10px;*/
   margin: 0;
+  text-align: center;
   padding: 200px 0 0px 0;
   background-size: cover;
 }
@@ -242,7 +243,12 @@ a.carousel-control-prev, a.carousel-control-next {
 
 .slideHeader {
   font-size: 50px;
-  margin-top: 550px;
+  position: absolute;
+  margin: auto;
+  /*text-align: center;*/
+  display: inline-block;
+  margin-left: -120px;
+  bottom: 30px;
 }
 
 .slideSub {
